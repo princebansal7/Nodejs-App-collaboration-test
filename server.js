@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
     res.send("<h1>About Me!</h1>");
 });
-app.get("/info", (req, res) => {
+app.get("/contact", (req, res) => {
     res.send("<h1>https://github.com/princebansal7</h1>");
 });
 
